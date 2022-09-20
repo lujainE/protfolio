@@ -1389,8 +1389,12 @@ ul {
   .cta-content h2 {
     font-size: 40px;
     margin-bottom: 10px;
-
     color: #000000; }
+  .cta-content h6 {
+    font-size: 18px;
+    color: #000000;
+    text-align: left;
+    margin-bottom: 30px; }
     @media only screen and (min-width: 992px) and (max-width: 1199px) {
       .cta-content h2 {
         font-size: 42px; } }
@@ -1399,13 +1403,10 @@ ul {
         font-size: 36px; } }
     @media only screen and (max-width: 767px) {
       .cta-content h2 {
-        font-size: 30px; } }
-  .cta-content h6 {
-    font-size: 18px;
-    color: #000000;
-    text-align: left;
-    margin-bottom: 30px; }
-
+        font-size: 30px; }
+        .cta-content {
+          left: 1%; }}
+  
 /* :: 16.0 Team CSS */
 .single-team-member-area {
   position: relative;
