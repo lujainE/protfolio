@@ -893,10 +893,10 @@ ul {
     }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
       .mona-Welcome-area .welcome-l {
-      left: 60% !important;} }
+      left: 1% !important;} }
     @media only screen and (max-width: 767px) {
-      .about-us-content {
-        padding-left: 0; } }
+      .mona-Welcome-area .welcome-l {
+        left: 1% !important;}}
 
 /* :: 12.0 About CSS */
 .about-us-thumbnail {
